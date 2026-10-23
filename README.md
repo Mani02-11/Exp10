@@ -72,24 +72,6 @@ This application uses the following concepts:
 
 ---
 
-## 🚀 Features
-
-* 📱 Attractive contact directory interface
-* 🎨 Modern gradient background and custom card design
-* 🔐 Runtime permission handling for contact access
-* 📇 Retrieves contacts stored on the Android device
-* 👤 Displays contact names
-* 📞 Displays contact phone numbers
-* 👆 Allows users to select a particular contact
-* 🔍 Displays details of the selected contact
-* 📊 Displays the number of retrieved phone entries
-* ⚠️ Handles permission denial and empty contact lists
-* 🔄 Loads contacts using Android's ContentResolver
-* 📱 Scrollable interface for convenient viewing
-* 🎓 Displays student name and USN in the footer
-
----
-
 # 📂 Project Structure
 
 ```text
@@ -121,8 +103,6 @@ app/
 │
 └── Gradle Scripts
 ```
-
-> **Note:** Update the package path and resource files in this structure if your actual project uses different names.
 
 ---
 
@@ -181,11 +161,12 @@ The application launches and requests permission to access contacts. The contact
 
 ### Status
 
-✅ **Passed** *(confirm after testing)*
+✅ **Passed** 
 
 ### Screenshot – Application Output
 
-<!-- Add your application home screen screenshot here -->
+<img width="400" height="660" alt="AdobeExpressPhotos_0f4103300efc42ff924a7fcb92d7f93d_CopyEdited" src="https://github.com/user-attachments/assets/d956d3be-e942-4a58-be01-f2cfbb574aa4" />
+
 
 ---
 
@@ -211,11 +192,12 @@ The application retrieves and displays the available contact entries successfull
 
 ### Status
 
-✅ **Passed** *(confirm after testing)*
+✅ **Passed** 
 
 ### Screenshot – Contact List
 
-<!-- Add your contact list screenshot here -->
+<img width="400" height="660" alt="AdobeExpressPhotos_82d6e77df2534aca8bbb09da5976048e_CopyEdited" src="https://github.com/user-attachments/assets/e606bda8-c04a-4443-9f13-418f246c7271" />
+
 
 ---
 
@@ -241,11 +223,12 @@ The selected contact's details are displayed successfully.
 
 ### Status
 
-✅ **Passed** *(confirm after testing)*
+✅ **Passed**
 
 ### Screenshot – Selected Contact Details
 
-<!-- Add your selected contact details screenshot here -->
+<img width="400" height="660" alt="AdobeExpressPhotos_5cef30e08cab44158d91595a2933c777_CopyEdited" src="https://github.com/user-attachments/assets/ada422f9-663a-4891-8554-f9058801cc81" />
+
 
 ---
 
@@ -261,9 +244,4 @@ After completing this experiment, the following concepts were understood:
 * Displaying contact information in an Android interface.
 * Handling user interaction to select and view individual contact details.
 * Understanding data sharing between Android applications through a standard provider.
-
 ---
-
-# ✅ Conclusion
-
-Thus, an Android application was developed using Kotlin and XML to implement data sharing through the Contact Content Provider. The application retrieves and displays contacts stored on the device, handles runtime permission requests, and allows users to select a particular contact to view its details. The experiment demonstrates how Android applications access shared contact data using `ContentResolver` and `ContactsContract`.
